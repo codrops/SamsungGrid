@@ -176,7 +176,6 @@
 }
 
 @-webkit-keyframes swipeRight {
-	0% {} /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
 	50%, 60% { -webkit-transform: translate3d(0,0,0); }
 	100% { -webkit-transform: translate3d(100%,0,0); }
 }
@@ -193,7 +192,6 @@
 }
 
 @-webkit-keyframes swipeDown {
-	0% {} /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
 	50%, 60% { -webkit-transform: translate3d(0,0,0); }
 	100% { -webkit-transform: translate3d(0,100%,0); }
 }
@@ -210,7 +208,6 @@
 }
 
 @-webkit-keyframes swipeRotate {
-	0% {} /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
 	50%, 60% { -webkit-transform: rotate3d(0,0,1,0deg); }
 	100% { -webkit-transform: rotate3d(0,0,1,-90deg); }
 }
@@ -229,7 +226,6 @@
 }
 
 @-webkit-keyframes fadeOut {
-	0% {} /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
 	50%, 60% { opacity: 1; }
 	100% { opacity: 0; }
 }
